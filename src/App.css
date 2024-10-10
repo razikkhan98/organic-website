@@ -65,6 +65,38 @@
   color: var(--dark);
 }
 
+.cart-trolley-link {
+  position: relative;
+  padding: 0px !important;
+  margin: 0px 27px;
+}
+
+.cart-trolley {
+  position: relative;
+  font-size: 25px;
+}
+.cart-total-item {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-color: var(--red-color);
+  color: var(--gray-color);
+  border-radius: 50%;
+}
+
+.cart-total {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  top: -27%;
+  left: 67%;
+}
+
 @media (max-width: 991.98px) {
   .navbar .navbar-nav {
     margin-top: 10px;
@@ -202,24 +234,117 @@ h1 {
   transform: skew(20deg);
   z-index: 1;
 }
-/* Why Choose Us section start */
-.WhyChooseUs {
-  background-color: #ffe2be;
-  background-image: url(../src/component/img/backgroundtexture.png);
+
+/*** Customer ***/
+.heading-section h3 {
   text-align: center;
-  color: #211700;
-  border: #111 1px solid;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--secondary);
 }
-.WhyHeading {
-  border: #111 1px solid;
-  font-size: 60px;
-  font-weight: 600;
-  font-family: "Lora", serif;
+
+.heading-section p {
+  text-align: center;
+  font-size: 15px;
+  color: var(--gray-color);
 }
-.WhyChooseUs-text {
-  border: #111 1px solid;
+
+.costumer-wrapper {
+  max-height: 100%;
+  display: flex;
+  gap: 10px;
 }
-.WhyChooseUs-leftimg {
-  border: #111 1px solid;
+
+/* .card-slide{
+  margin: 0.5rem;
+  width: calc(100%/3);
+} */
+.costumer-single {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  overflow: hidden;
 }
-/* Why Choose Us section end */
+
+.costumer-card {
+  margin-right: 30px;
+}
+
+.costumer-content {
+  gap: 15px;
+}
+
+.costumer-author-img img {
+  border-radius: 50px;
+  width: 78px !important;
+  height: 78px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.costumer-quote p {
+  margin: 15px 0;
+}
+
+.costumer-rate {
+  color: #ff7900;
+}
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #555;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+/*** Footer ***/
+
+
+
+/* Footer */
+.background-color-footer {
+  background-color: #ffe5e5;
+}
+
+.footer-logo {
+  width: 55%;
+}
+
+.text-color-gray span {
+  color: var(--red-color);
+  font-weight: 700;
+}
+
+.footer-icon {
+  color: var(--gray-color);
+}
+
+.footer span {
+  font-size: 14px;
+  margin-left: 8px;
+  color: var(--gray-color);
+}
+
+.social-media-icon {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr {
+  background-color: black;
+  height: 1px;
+  margin: 10px 26px;
+}
