@@ -155,6 +155,9 @@ h1{
   line-height: 1.2;
   color: #111 !important;
 }
+.carousel-indicators button{
+  display: none;
+}
 
 /*** About ***/
 .about-img img {

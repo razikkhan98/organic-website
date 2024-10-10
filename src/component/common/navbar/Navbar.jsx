@@ -46,7 +46,7 @@ const NavbarComponent = () => {
       data-wow-delay="0.1s"
     >
       {/* Top bar */}
-      <div className="top-bar row gx-0 align-items-center d-none d-lg-flex">
+      <div className={`top-bar row gx-0 align-items-center d-lg-flex ${scrolled ? 'd-none' : ''}`}>
         <div className="col-lg-6 px-5 text-start">
           <small>
             <i className="fa fa-map-marker-alt me-2"></i>123 Street, New York,
