@@ -158,7 +158,14 @@ h1{
 .carousel-indicators button{
   display: none;
 }
+.carousel-control-prev .carousel-control-prev-icon {
+  display: none;
 
+}
+.carousel-control-next .carousel-control-next-icon {
+  display: none;
+
+}
 /*** About ***/
 .about-img img {
   position: relative  !important;
