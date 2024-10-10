@@ -28,7 +28,7 @@ const carouselItems = [
 const CarouselComponent = () => {
     return (
         <div className="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-            <Carousel id="header-carousel" fade interval={3000} controls={true}>
+            <Carousel id="header-carousel" fade interval={2000} controls={true}>
                 {carouselItems.map((item, index) => (
                     <Carousel.Item key={index}>
                         <img
