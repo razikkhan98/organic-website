@@ -202,21 +202,20 @@ h1 {
 /* Why Choose Us section start */
 .WhyChooseUs {
   background-color: #ffe2be;
-  background-image: url(../src/component/img/backgroundtexture.png);
+  background-image: url(../src/component/img/WhyChooseUs/backgroundtexture.png);
   text-align: center;
   color: #211700;
-  border: #111 1px solid;
 }
 .WhyHeading {
-  border: #111 1px solid;
-  font-size: 60px;
+  font-size: 53px;
   font-weight: 600;
   font-family: "Lora", serif;
 }
-.WhyChooseUs-text {
-  border: #111 1px solid;
-}
-.WhyChooseUs-leftimg {
-  border: #111 1px solid;
+
+.WhyChooseUs-icons {
+  height: 90px;
+  padding: 15px;
+  background-color: #221200;
+  border-radius: 50%;
 }
 /* Why Choose Us section end */
