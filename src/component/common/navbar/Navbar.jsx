@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container, Button, NavDropdown } from "react-bootstrap";
 // Data arrays for dynamic renderng
-
+import LoginModal from "../../common/modal/modal";
 
 const NavbarComponent = () => {
   
@@ -113,13 +113,14 @@ const NavbarComponent = () => {
 
             <div className="d-none d-lg-flex ms-2">
               
-              <Button
+              <LoginModal/>
+              {/* <Button
                 variant="light"
                 className="btn-sm-square bg-white rounded-circle ms-3"
                 onClick={() => setShowModal(true)}
               >
                 <i className="fa fa-user text-body"></i>
-              </Button>
+              </Button> */}
               <Button
                 variant="light"
                 className="btn-sm-square bg-white rounded-circle ms-3"
